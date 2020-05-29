@@ -1,2 +1,3 @@
 User-agent: *
 Allow:/
+Sitemap:https://godface.netlify.app/sitemap.xml
