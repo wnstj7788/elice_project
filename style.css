@@ -484,3 +484,10 @@ input:checked + label > .knob > i:before {
     margin: 0 auto;
 }
 
+.ad-gender{
+    max-width: 320px;
+    margin: 0 auto;
+    max-height: 50px;
+     word-break:break-all;
+    
+}
