@@ -10,6 +10,7 @@ body {
     border-radius: 10px;
     border: solid 1.5px #f6f7fa;
     background-color: #f6f7fa;
+    z-index: 3;
 }
 .file-upload-btn {
   width: 100%;
@@ -146,6 +147,7 @@ body {
 
 .section {
     margin-top: 50px;
+    z-index:1;
     
      
 }
@@ -490,4 +492,8 @@ input:checked + label > .knob > i:before {
     max-height: 50px;
      word-break:break-all;
     
+}
+.ad-co{
+    z-index: 10;
+}
 }
