@@ -495,5 +495,6 @@ input:checked + label > .knob > i:before {
 }
 .ad-co{
     z-index: 10;
+
 }
 }
