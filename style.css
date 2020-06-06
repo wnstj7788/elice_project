@@ -497,4 +497,7 @@ input:checked + label > .knob > i:before {
     z-index: 10;
 
 }
+.coding{
+    text-align: center;
+}
 }
