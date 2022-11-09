@@ -1,6 +1,6 @@
 body {
   font-family: 'Jua', sans-serif;
-  background-color: #ffffff;
+  background-color: #dcc8ee;
   box-sizing: border-box;
   color: #35465d;
 }
@@ -8,8 +8,8 @@ body {
     padding: 15% 3%;
     margin: 0 auto;
     border-radius: 10px;
-    border: solid 1.5px #f6f7fa;
-    background-color: #f6f7fa;
+    border: solid 1.5px #cbaff8;
+    background-color: #ead9f8;
     z-index: 3;
 }
 .file-upload-btn {
@@ -95,6 +95,9 @@ body {
 
 .drag-text {
   text-align: center;
+}
+.drag-text.upload{
+  width : 80%
 }
 
 .drag-text h3 {
@@ -218,7 +221,7 @@ body {
   height: 2.7rem;
 }
 
-.good-box {
+.엘사-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -227,7 +230,7 @@ body {
   width: 100%;
   background-color: rgba(27, 175, 234, 0.2);
 }
-.good-bar {
+.엘사-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -235,7 +238,7 @@ body {
   border-radius: 10px;
   background-color: rgba(27, 175, 234, 1);
 }
-.midgood-box {
+.모아나-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -244,7 +247,7 @@ body {
   width: 100%;
   background-color: rgba(251, 176, 59, 0.2);
 }
-.midgood-bar {
+.모아나-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -252,7 +255,7 @@ body {
   border-radius: 10px;
   background-color: rgba(251, 176, 59, 1);
 }
-.mid-box {
+.포카혼타스-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -261,7 +264,7 @@ body {
   width: 100%;
   background-color: rgba(195, 140, 102, 0.2);
 }
-.mid-bar {
+.포카혼타스-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -269,7 +272,7 @@ body {
   border-radius: 10px;
   background-color: rgba(195, 140, 102, 1);
 }
-.no-box {
+.라푼젤-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -278,7 +281,7 @@ body {
   width: 100%;
   background-color: rgba(49, 132, 155, 0.2);
 }
-.no-bar {
+.라푼젤-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -286,7 +289,7 @@ body {
   border-radius: 10px;
   background-color: rgba(49, 132, 155, 1);
 }
-.omg-box {
+.엘리스-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -295,7 +298,93 @@ body {
   width: 100%;
   background-color: rgba(235, 166, 190, 0.2);
 }
-.omg-bar {
+.엘리스-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(235, 166, 190, 1);
+}
+
+.크리스토프-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(27, 175, 234, 0.2);
+}
+.크리스토프-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(27, 175, 234, 1);
+}
+.랄프-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(251, 176, 59, 0.2);
+}
+.랄프-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(251, 176, 59, 1);
+}
+.마우이-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(195, 140, 102, 0.2);
+}
+.마우이-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(195, 140, 102, 1);
+}
+.알라딘-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(49, 132, 155, 0.2);
+}
+.알라딘-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(49, 132, 155, 1);
+}
+.지니-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(235, 166, 190, 0.2);
+}
+.지니-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -499,5 +588,4 @@ input:checked + label > .knob > i:before {
 }
 .coding{
     text-align: center;
-}
 }
